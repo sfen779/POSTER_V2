@@ -487,6 +487,7 @@ class RecorderMeter(object):
 
         plt.xlim(0, self.total_epoch)
         plt.ylim(0, 100)
+        ##test
         interval_y = 5
         interval_x = 5
         plt.xticks(np.arange(0, self.total_epoch + interval_x, interval_x))
